@@ -1,0 +1,73 @@
+html {
+  background-color: rgb(241, 243, 255);
+  width: 100%;
+  height: 100%;
+}
+
+.Container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: rgb(70, 79, 150);
+  margin-bottom: 0px;
+}
+.Lefttodo {
+  color: rgb(137, 142, 182);
+  margin-bottom: 20px;
+  font-size: small;
+}
+
+.Submit {
+  width: 20%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+input,
+button {
+  border: none;
+}
+.inputText {
+width: 200px;
+}
+/* .Listbox {
+  width: 25%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+} */
+ul {
+  display: block;
+  text-align: center;
+  width: 30%;
+
+  margin: auto;
+
+}
+.Listitem {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin-bottom: 10px;
+  height: 10%;
+  ;
+}
+.Listleft {
+  display: flex;
+  justify-content: flex-start;
+}
+.Listright {
+}
+.checkbox {
+}
+.DeleteBtn {
+}
+.itemCheckedchecked {
+  text-decoration: line-through;
+  color: gray;
+}
